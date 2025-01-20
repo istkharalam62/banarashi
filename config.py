@@ -8,7 +8,7 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "6435225"))
 API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
-BOT_PRIVACY = getenv("BOT_PRIVACY", "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+BOT_PRIVACY = getenv("BOT_PRIVACY", "https://bot.telescope.workers.dev/open/BQACAgUAAx0EWiS9TAACGIdnjgVUqwmxg528zQYmShURuLW8EQACehIAAks-cVS5sFK1aoMm4DYE/vTelegraphBot.html")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
