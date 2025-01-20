@@ -8,7 +8,7 @@ from pyrogram import filters
 from yt_dlp import YoutubeDL
 
 from AnieXEricaMusic import app
-from AnieXEricaMusic.misc import SUDOERS
+from AnieXEricaMusic import SUDOERS
 
 class YouTubeAuthDownloader:
     def __init__(self):
