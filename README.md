@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 AnieXErica Music」──
+    ──「 BADNAM Music」──
 </h2>
 
 <p align="center">
