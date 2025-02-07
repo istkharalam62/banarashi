@@ -15,11 +15,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002354552656))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002010769961))
 
-OWNER_ID = int(getenv("OWNER_ID", 7045191057))
+OWNER_ID = int(getenv("OWNER_ID", 6315125023))
 
-OWNER = int(getenv("OWNER", 2105971379))
+OWNER = int(getenv("OWNER", 6315125023))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -27,14 +27,14 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "hhttps://github.com/Shivmis/Artik",
+    "https://github.com/Badnam019/banarashi-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/X_NETWORK_BOTS_I")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://telegram.me/Shivang_mishra_op")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ABOUT_BADNAM_YADAV_XD")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/FRIEND_X_ZONE_XDll")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
@@ -57,7 +57,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/93cbe5ae39ff91c22b731-594eddbe695d4e8836.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/lcdpra.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/b822fd712d27e810d9b1c-e23ab483baa5832312.jpg")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://graph.org/file/b822fd712d27e810d9b1c-e23ab483baa5832312.jpg")
