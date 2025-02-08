@@ -90,7 +90,7 @@ def crop_center_circle(img, output_size, border, border_color, crop_scale=1.5):
     
     return result
 
-def draw_text_with_shadow(background, draw, position, text, font, fill, shadow_offset=(3, 3), white_blur=5):
+def draw_text_with_shadow(background, draw, position, text, font, fill, shadow_offset=(3, 3), shadow_blur=5):
     
     shadow = Image.new('RGBA', background.size, (0, 0, 0, 0))
     shadow_draw = ImageDraw.Draw(shadow)
