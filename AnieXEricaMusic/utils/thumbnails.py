@@ -90,7 +90,7 @@ def crop_center_circle(img, output_size, border, border_color, crop_scale=1.5):
     
     return result
 
-def draw_text_with_shadow(background, draw, position, text, font, fill, shadow_offset=(3, 3), shadow_blur=5):
+def draw_text_with_shadow(background, draw, position, text, font, fill, shadow_offset=(3, 3), white_blur=5):
     
     shadow = Image.new('RGBA', background.size, (0, 0, 0, 0))
     shadow_draw = ImageDraw.Draw(shadow)
@@ -212,7 +212,7 @@ async def gen_thumb(videoid: str):
         
             start_point_white = (text_x_position + color_line_length, 380)
             end_point_white = (text_x_position + line_length, 380)
-            draw.line([start_point_white, end_point_white], fill="white", width=8)
+            draw.line([start_point_white, end_point_white], fill="yellow", width=8)
         
             circle_radius = 10 
             circle_position = (end_point_color[0], end_point_color[1])
