@@ -33,8 +33,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/utkarshg")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/UtkarshQuizr")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TEAM_BADNAM_BOTS")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TEAM_BADNAM_BOTS")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "7f92897a59464ddbbf00f06cd6bda7fc")
@@ -57,7 +57,7 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/3i2zto.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/x8zk51.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/lcdpra.jpg")
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = getenv("STATS_IMG_URL", "https://files.catbox.moe/lcdpra.jpg")
